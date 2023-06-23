@@ -23,7 +23,7 @@ theme:
     text: Vazirmatn
     code: Source Code Pro
   logo: assets/images/terraform.png
-  favicon: assets/images/sid.png
+  favicon: assets/images/terraform.png
   features:
     - navigation.tabs
     - content.code.copy
@@ -31,7 +31,8 @@ theme:
 nav:
   - index.md
   - intro.md
-  - زیرسازی با کد: iac.md
+  - زیرساخت با کد: iac.md
+  - ترافورم: terraform/overview.md
 
 extra_css:
   - stylesheets/extra.css
