@@ -33,6 +33,7 @@ nav:
   - intro.md
   - زیرساخت با کد: iac.md
   - ترافورم: terraform/overview.md
+  - شروع کنید: getting-started.md
 
 extra_css:
   - stylesheets/extra.css
@@ -60,6 +61,8 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
   - attr_list
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
