@@ -18,22 +18,13 @@ Subnet،
 3. روی "Create VPC" کلیک کنید و CIDR block مربوط به VPC خود را وارد کنید.
 4. به بخش Subnets بروید و روی "Create Subnet" کلیک کنید.
 5. محتویات CIDR block را کامل کنید و VPC ساخته شده را انتخاب کنید.
-6. به بخش "Security Groups" بروید ...
-
-(جواب اصلی اینه:)
-
-1. Log in to the AWS Management Console.
-2. Navigate to the VPC dashboard.
-3. Click on "Create VPC" and enter the CIDR block for your VPC.
-4. Navigate to the "Subnets" section and click on "Create subnet".
-5. Enter the CIDR block for your subnet and select the VPC you created earlier.
-6. Navigate to the "Security Groups" section and click on "Create security group".
-7. Enter a name and description for your security group, and select the VPC you created earlier.
-8. Add inbound and outbound rules as desired.
-9. Navigate to the EC2 dashboard.
-10. Click on "Launch Instance" and select the AMI you want to use.
-11. Choose the instance type and configure other settings as desired.
-12. In the "Configure Security Group" section, select "Select an existing security group" and choose the security group you created earlier.
-13. Launch your instance.
+6. به بخش "Security Groups" بروید و روی "Create Security Group" کلیک کنید.
+7. نام و توضیحاتی برای گروه امنیتی خود وارد کنید و VPC ساخته شده را انتخاب کنید.
+8. قوانین ورودی و خروجی را به دلخواه اضافه کنید.
+9. به EC2 dashboard بروید.
+10. روی "Launch Instance" کلیک کنید و AMI مورد نظر خود را انتخاب کنید.
+11. یک نوع instance انتخاب کنید و تنظیمات دیگر را به دلخواه تنظیم کنید.
+12. در بخش "Configure Security Group"، روی "Select an existing security group" کلیک کنید و گروه امنیتی ساخته شده را انتخاب کنید.
+13. ماشین خود را راه‌اندازی کنید.
 
 خب فکر کنید که یکم کارهای بیش‌تری بخواید بکنید. هر بار که یک ماشین جدید می‌خواهید بسازید، همه این فرآیند رو باید طی کنید. یا فکر کنید که چنین کار سختی رو انجام دادید و دفعه بعدی، یکی از همکارانتان می‌خواست دقیقا همان کار شما را انجام بدهد. روشی می‌شناسید که این فرآیند را خودکار بکند؟ 
