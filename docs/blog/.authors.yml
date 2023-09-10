@@ -1,4 +1,5 @@
-Atreus:
-  name: Abolfazl Soltani
-  description: Creator
-  avatar: https://github.com/atreussoltani.png
+authors:
+  Atreus:
+    name: Abolfazl Soltani
+    description: Creator
+    avatar: https://github.com/atreussoltani.png
