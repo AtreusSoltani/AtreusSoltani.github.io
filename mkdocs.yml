@@ -1,7 +1,7 @@
-site_name: ترافورم
+site_name: Jotunheim
 site_url: https://github.com/atreussoltani/atreussoltani.github.io
-site_author: ابوالفضل سلطانی
-site_description: آموزش ترافورم
+site_author: Abolfazl Soltani
+site_description: My personal blog
 
 theme:
   name: material
@@ -30,13 +30,8 @@ theme:
 
 nav:
   - index.md
-  - intro.md
-  - زیرساخت با کد: iac.md
-  - ترافورم: terraform/overview.md
-  - شروع کنید: getting-started.md
-
-extra_css:
-  - stylesheets/extra.css
+  - بلاگ:
+      - blog/index.md
 
 extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
@@ -54,32 +49,21 @@ extra:
       link: https://t.me/absoltani02
       name: تلگرام
 
-plugins: 
+plugins:
   - search
+  - blog:
+      categories_allowed:
+        - Food
+        - Travel
+        - Personal
+        - Experience
 
 markdown_extensions:
   - admonition
-  - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.tabbed:
-      alternate_style: true 
-  - attr_list
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-  - pymdownx.highlight
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - tables
-  - pymdownx.critic
-  - pymdownx.caret
-  - pymdownx.keys
-  - pymdownx.mark
-  - pymdownx.tilde
-  - md_in_html
+  - footnotes
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
-  - pymdownx.arithmatex:
-      generic: true
-  - footnotes
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
